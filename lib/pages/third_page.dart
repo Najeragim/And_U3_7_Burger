@@ -4,13 +4,13 @@ class ThirdPage extends StatefulWidget {
   @override
   _ThirdPageState createState() => _ThirdPageState();
 }
-/*
+
 const List<Color> yellowGradients = [
   Colors.yellow,
   Colors.yellow[300],
   Colors.yellow[100],
 ],
-
+/*
 const List<Color> orangeGradients = [
   Colors.orange,
   Colors.orange[300],
@@ -37,6 +37,17 @@ class _ThirdPageState extends State<ThirdPage> {
               height: 200,
               width: 350,
             ),// Contenedor 1
+            SizedBox(height: 20.0,),
+            Container(
+              height: 200,
+              width: 350,
+              decoration: ShapeDecoration(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.all(30.0),
+                  gradient: LinearGradient(colors: , )
+                )
+              ),
+            ),// Contenedor 2
           ],// Hijos
         ),// Columna
       ),// ConstrainedBox
