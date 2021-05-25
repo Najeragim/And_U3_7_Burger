@@ -64,9 +64,10 @@ class SecondPage extends StatelessWidget {
                     Row(
                       children: <Widget>[
                         Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 30.0,),
+                          padding: EdgeInsets.symmetric(horizontal: 10.0,),
                           child: ElevatedButton(
                             style: ButtonStyle(
+                              padding: 10.0,
                               backgroundColor: MaterialStateProperty.all<Color>(Colors.orange),
                               shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                                 RoundedRectangleBorder(
@@ -80,7 +81,7 @@ class SecondPage extends StatelessWidget {
                         ),//Padding 1
                         SizedBox(width: 10,),
                         Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 30.0,),
+                          padding: EdgeInsets.symmetric(horizontal: 10.0,),
                           child: ElevatedButton(
                             style: ButtonStyle(
                               backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
