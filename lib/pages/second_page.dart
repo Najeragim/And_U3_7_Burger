@@ -66,14 +66,9 @@ class SecondPage extends StatelessWidget {
                         Padding(
                           padding: EdgeInsets.symmetric(horizontal: 10.0,),
                           child: ElevatedButton(
-                            style: ButtonStyle(
+                            style: ButtonStyle.styleFrom(
                               padding: EdgeInsets.all(8.0),
-                              backgroundColor: MaterialStateProperty.all<Color>(Colors.orange),
-                              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                                RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                              ),//Forma
+                              primary: Colors.orange,
                             ),//Estilo
                             child: Text('Iniciar Sesión'),
                             onPressed: (){}
@@ -83,15 +78,10 @@ class SecondPage extends StatelessWidget {
                         Padding(
                           padding: EdgeInsets.symmetric(horizontal: 10.0,),
                           child: ElevatedButton(
-                            style: ButtonStyle(
+                            style: ButtonStyle.styleFrom(
                               padding: EdgeInsets.all(8.0),
-                              backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
-                              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                                RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                              ),// Forma
-                            ),// Estilo
+                              primary: Colors.red,
+                            ),//Estilo
                             child: Text('Cancelar'),
                             onPressed: (){}
                           ),// Botón Login
