@@ -34,7 +34,6 @@ class SecondPage extends StatelessWidget {
                       ),
                     ),// Subtitulo
                   ],
-                  child: 
                 ),// Contenedor 1
                 SizedBox(height: 40), 
                 Column(
