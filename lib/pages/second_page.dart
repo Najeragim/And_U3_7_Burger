@@ -62,6 +62,7 @@ class SecondPage extends StatelessWidget {
                     ),//Campo de Texto
                     SizedBox(height: 20,),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
