@@ -19,13 +19,22 @@ class SecondPage extends StatelessWidget {
               children: <Widget>[
                 SizedBox(height: 65), 
                 Container(
-                  child: Text('MC DONALD\'S',
-                    style: new TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 40.0,
-                      color: Colors.orange,
-                    ),
-                  ),// Texto McDonalds
+                  children: <Widget>[
+                    Text('MC DONALD\'S',
+                      style: new TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 40.0,
+                        color: Colors.orange,
+                      ),
+                    ),// Texto McDonalds
+                    Text('Gianluca Najera',
+                      style: new TextStyle(
+                        fontSize: 40.0,
+                        color: Colors.red,
+                      ),
+                    ),// Subtitulo
+                  ],
+                  child: 
                 ),// Contenedor 1
                 SizedBox(height: 40), 
                 Column(
