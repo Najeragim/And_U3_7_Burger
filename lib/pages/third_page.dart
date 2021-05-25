@@ -5,19 +5,6 @@ class ThirdPage extends StatefulWidget {
   _ThirdPageState createState() => _ThirdPageState();
 }
 
-/*
-const List<Color> orangeGradients = [
-  Colors.orange,
-  Colors.orange[300],
-  Colors.orange[100],
-],
-
-const List<Color> redGradients = [
-  Colors.red,
-  Colors.red[300],
-  Colors.red[100],
-],
-*/
 class _ThirdPageState extends State<ThirdPage> {
   @override
   Widget build(BuildContext context) {
@@ -78,7 +65,8 @@ class _ThirdPageState extends State<ThirdPage> {
                     begin: Alignment.bottomLeft,
                     end: Alignment.topRight,
                   ),// Gradiente
-                  child: Text(
+                ),// Box Decoration
+                child: Text(
                     'Hola',
                     textAlign: TextAlign.center, 
                     style: TextStyle(
@@ -87,7 +75,6 @@ class _ThirdPageState extends State<ThirdPage> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),// Texto
-                ),// Box Decoration
               ),// Contenedor 3
             ],// Hijos
           ),// Columna
