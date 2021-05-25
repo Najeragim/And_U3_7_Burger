@@ -36,8 +36,8 @@ class SecondPage extends StatelessWidget {
                         children: <Widget>[
                           Align(
                             child: new Image(
-                              width: 300.0,
-                              height: 198.12,
+                              width: 250.0,
+                              height: 165.1,
                               image: new AssetImage('assets/images/burger1.png'),
                             ),// Imagen
                           ),// Align
