@@ -63,29 +63,23 @@ class SecondPage extends StatelessWidget {
                     SizedBox(height: 40,),
                     Row(
                       children: <Widget>[
-                        Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 10.0,),
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                              padding: EdgeInsets.all(8.0),
-                              primary: Colors.orange,
-                            ),//Estilo
-                            child: Text('Iniciar Sesión'),
-                            onPressed: (){}
-                          ),// Botón Login
-                        ),//Padding 1
+                        ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            padding: EdgeInsets.all(8.0),
+                            primary: Colors.orange,
+                          ),//Estilo
+                          child: Text('Iniciar Sesión'),
+                          onPressed: (){}
+                        ),// Botón Login
                         SizedBox(width: 10,),
-                        Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 10.0,),
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                              padding: EdgeInsets.all(8.0),
-                              primary: Colors.red,
-                            ),//Estilo
-                            child: Text('Cancelar'),
-                            onPressed: (){}
-                          ),// Botón Login
-                        ),// Padding 2
+                        ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            padding: EdgeInsets.all(8.0),
+                            primary: Colors.red,
+                          ),//Estilo
+                          child: Text('Cancelar'),
+                          onPressed: (){}
+                        ),// Botón Login
                       ],//Hijos
                     ),// Fila
                   ],// Hijos
