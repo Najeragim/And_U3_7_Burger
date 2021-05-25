@@ -74,7 +74,6 @@ class SecondPage extends StatelessWidget {
                                 ),
                               ),//Forma
                             ),//Estilo
-                            borderRadius: BorderRadius.circular(12.0),
                             child: Text('Iniciar Sesión'),
                             onPressed: (){}
                           ),// Botón Login
@@ -91,7 +90,6 @@ class SecondPage extends StatelessWidget {
                                 ),
                               ),// Forma
                             ),// Estilo
-                            borderRadius: BorderRadius.circular(12.0),
                             child: Text('Cancelar'),
                             onPressed: (){}
                           ),// Botón Login
