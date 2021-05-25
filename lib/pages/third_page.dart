@@ -82,8 +82,11 @@ class _ThirdPageState extends State<ThirdPage> {
                   ),
                 ), // Texto
               ), // Contenedor 3
+              SizedBox(
+                height: 20.0,
+              ),
               Container(
-                padding: EdgeInsets.all(10.0),
+                padding: EdgeInsets.symmetric(horizontal: 100, ),
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(30.0),
