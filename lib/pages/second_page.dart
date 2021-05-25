@@ -21,7 +21,7 @@ class SecondPage extends StatelessWidget {
                 child: Text('MC DONALD\'S',
                   style: new TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 45.0,
+                    fontSize: 40.0,
                     color: Colors.orange,
                   ),
                 ),// Texto McDonalds
