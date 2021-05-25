@@ -28,7 +28,7 @@ class _ThirdPageState extends State<ThirdPage> {
           children: <Widget>[
             SizedBox(height: 80.0,),
             Container(
-              color: Colors.pink,
+              color: Colors.purple,
               height: 200,
               width: 350,
             ),// Contenedor 1
@@ -46,8 +46,20 @@ class _ThirdPageState extends State<ThirdPage> {
                   ],
                   begin: Alignment.bottomLeft,
                   end: Alignment.topRight,
-                ),
-              ),
+                ),// Gradiente
+              ),// Box Decoration
+              child: Container(
+                padding: EdgeInsets.only(top: 35.0, bottom: 16),
+                child: Text(
+                  'Najera 6J',
+                  textAlign: TextAlign.center, 
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 38,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),// Texto
+              ),// Contenedor hijo
             ),// Contenedor 2
           ],// Hijos
         ),// Columna
