@@ -89,7 +89,7 @@ class _ThirdPageState extends State<ThirdPage> {
                 onTap: (){
                   print('UNA NUBECITA');
                 }
-                Container(
+                child: Container(
                   width: 110,
                   height: 110,
                   alignment: Alignment.center,
