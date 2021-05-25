@@ -14,13 +14,17 @@ class _ThirdPageState extends State<ThirdPage> {
         child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
-              SizedBox(height: 80.0,),
+              SizedBox(
+                height: 80.0,
+              ),
               Container(
                 color: Colors.purple,
                 height: 200,
                 width: 350,
-              ),// Contenedor 1
-              SizedBox(height: 20.0,),
+              ), // Contenedor 1
+              SizedBox(
+                height: 20.0,
+              ),
               Container(
                 height: 200,
                 width: 250,
@@ -34,22 +38,24 @@ class _ThirdPageState extends State<ThirdPage> {
                     ],
                     begin: Alignment.bottomLeft,
                     end: Alignment.topRight,
-                  ),// Gradiente
-                ),// Box Decoration
+                  ), // Gradiente
+                ), // Box Decoration
                 child: Container(
                   padding: EdgeInsets.only(top: 35.0, bottom: 16),
                   child: Text(
                     'Najera 6J',
-                    textAlign: TextAlign.center, 
+                    textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
                     ),
-                  ),// Texto
-                ),// Contenedor hijo
-              ),// Contenedor 2
-              SizedBox(height: 20.0,),
+                  ), // Texto
+                ), // Contenedor hijo
+              ), // Contenedor 2
+              SizedBox(
+                height: 20.0,
+              ),
               Container(
                 height: 50,
                 width: 100,
@@ -64,22 +70,47 @@ class _ThirdPageState extends State<ThirdPage> {
                     ],
                     begin: Alignment.bottomLeft,
                     end: Alignment.topRight,
-                  ),// Gradiente
-                ),// Box Decoration
+                  ), // Gradiente
+                ), // Box Decoration
                 child: Text(
-                    'Hola',
-                    textAlign: TextAlign.center, 
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),// Texto
-              ),// Contenedor 3
-            ],// Hijos
-          ),// Columna
-        ),// SingleChildScrollView
-      ),// ConstrainedBox
-    );//Material
+                  'Hola',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ), // Texto
+              ), // Contenedor 3
+              Container(
+                padding: EdgeInsets.all(10.0),
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(30.0),
+                  gradient: LinearGradient(
+                    colors: [
+                      Colors.orange,
+                      Colors.orange[300],
+                      Colors.orange[200],
+                    ],
+                    begin: Alignment.bottomLeft,
+                    end: Alignment.topRight,
+                  ), // Gradiente
+                ), // Box Decoration
+                child: Text(
+                  'Hola',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ), // Texto
+              ), // Contenedor 4
+            ], // Hijos
+          ), // Columna
+        ), // SingleChildScrollView
+      ), // ConstrainedBox
+    ); //Material
   } // widget
 } // Clase ThirdPage
