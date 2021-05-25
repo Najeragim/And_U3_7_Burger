@@ -6,6 +6,7 @@ class ThirdPage extends StatefulWidget {
 }
 
 class _ThirdPageState extends State<ThirdPage> {
+  @override
   const List<Color> yellowGradients = [
     Colors.yellow,
     Colors.yellow[300],
@@ -23,7 +24,6 @@ class _ThirdPageState extends State<ThirdPage> {
     Colors.red[300],
     Colors.red[100],
   ],
-  @override
   Widget build(BuildContext context) {
     return Material(
       child: ConstrainedBox(
