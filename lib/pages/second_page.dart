@@ -63,15 +63,15 @@ class SecondPage extends StatelessWidget {
                     SizedBox(height: 40,),
                     Row(
                       children: <Widget>[
-                        CupertinoButton(
+                        ElevatedButton(
                           padding: EdgeInsets.symmetric(horizontal: 30.0,),
                           color: Colors.orange,
                           borderRadius: BorderRadius.circular(12.0),
                           child: Text('Iniciar Sesión'),
                           onPressed: (){}
                         ),// Botón Login
-                        SizedBox(width: 10, ),
-                        CupertinoButton(
+                        SizedBox(width: 10,),
+                        ElevatedButton(
                           padding: EdgeInsets.symmetric(horizontal: 30.0,),
                           color: Colors.red,
                           borderRadius: BorderRadius.circular(12.0),
