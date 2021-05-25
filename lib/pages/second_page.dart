@@ -63,21 +63,25 @@ class SecondPage extends StatelessWidget {
                     SizedBox(height: 40,),
                     Row(
                       children: <Widget>[
-                        ElevatedButton(
-                          padding: EdgeInsets.symmetric(horizontal: 30.0,),
-                          color: Colors.orange,
-                          borderRadius: BorderRadius.circular(12.0),
-                          child: Text('Iniciar Sesión'),
-                          onPressed: (){}
-                        ),// Botón Login
+                        Padding(
+                          child: ElevatedButton(
+                            padding: EdgeInsets.symmetric(horizontal: 30.0,),
+                            color: Colors.orange,
+                            borderRadius: BorderRadius.circular(12.0),
+                            child: Text('Iniciar Sesión'),
+                            onPressed: (){}
+                          ),// Botón Login
+                        ),//Padding 1
                         SizedBox(width: 10,),
-                        ElevatedButton(
-                          padding: EdgeInsets.symmetric(horizontal: 30.0,),
-                          color: Colors.red,
-                          borderRadius: BorderRadius.circular(12.0),
-                          child: Text('Cancelar'),
-                          onPressed: (){}
-                        ),// Botón Login
+                        Padding(
+                          child: ElevatedButton(
+                            padding: EdgeInsets.symmetric(horizontal: 30.0,),
+                            color: Colors.red,
+                            borderRadius: BorderRadius.circular(12.0),
+                            child: Text('Cancelar'),
+                            onPressed: (){}
+                          ),// Botón Login
+                        ),// Padding 2
                       ],//Hijos
                     ),// Fila
                   ],// Hijos
