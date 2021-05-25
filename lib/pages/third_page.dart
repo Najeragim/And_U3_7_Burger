@@ -5,11 +5,6 @@ class ThirdPage extends StatefulWidget {
   _ThirdPageState createState() => _ThirdPageState();
 }
 
-const List<Color> yellowGradients = [
-  Colors.yellow,
-  Colors.yellow[300],
-  Colors.yellow[100],
-],
 /*
 const List<Color> orangeGradients = [
   Colors.orange,
@@ -44,8 +39,14 @@ class _ThirdPageState extends State<ThirdPage> {
               decoration: ShapeDecoration(
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(30.0),
-                  gradient: LinearGradient(colors: , )
-                )
+                  gradient: LinearGradient(
+                    colors: [
+                      Colors.yellow,
+                      Colors.yellow[300],
+                      Colors.yellow[100],
+                    ],
+                  ),
+                ),
               ),
             ),// Contenedor 2
           ],// Hijos
