@@ -67,7 +67,6 @@ class SecondPage extends StatelessWidget {
                           padding: EdgeInsets.symmetric(horizontal: 10.0,),
                           child: ElevatedButton(
                             style: ButtonStyle(
-                              padding: 10.0,
                               backgroundColor: MaterialStateProperty.all<Color>(Colors.orange),
                               shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                                 RoundedRectangleBorder(
