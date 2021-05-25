@@ -37,7 +37,7 @@ class _ThirdPageState extends State<ThirdPage> {
               height: 200,
               width: 350,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(30.0),
+                borderRadius: BorderRadius.circular(30.0),
                 gradient: LinearGradient(
                   colors: [
                     Colors.yellow,
