@@ -30,7 +30,7 @@ class SecondPage extends StatelessWidget {
                       ),// Texto McDonalds
                       Text('Gianluca Najera',
                         style: new TextStyle(
-                          fontSize: 40.0,
+                          fontSize: 12.0,
                           color: Colors.red,
                         ),
                       ),// Subtitulo
