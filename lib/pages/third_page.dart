@@ -36,17 +36,15 @@ class _ThirdPageState extends State<ThirdPage> {
             Container(
               height: 200,
               width: 350,
-              decoration: ShapeDecoration(
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.all(30.0),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(30.0),
+                gradient: LinearGradient(
+                  colors: [
+                    Colors.yellow,
+                    Colors.yellow[300],
+                    Colors.yellow[100],
+                  ],
                 ),
-              ),
-              gradient: LinearGradient(
-                colors: [
-                  Colors.yellow,
-                  Colors.yellow[300],
-                  Colors.yellow[100],
-                ],
               ),
             ),// Contenedor 2
           ],// Hijos
