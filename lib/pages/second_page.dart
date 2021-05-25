@@ -44,7 +44,7 @@ class SecondPage extends StatelessWidget {
                         ],//Hijos
                       ),// Stack
                     ),// Contenedor
-                    SizedBox(height: 40),
+                    SizedBox(height: 20),
                     TextField(
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
@@ -58,9 +58,28 @@ class SecondPage extends StatelessWidget {
                         border: OutlineInputBorder(),
                         hintText: 'Contraseña',
                         suffixIcon: Icon(Icons.vpn_key_rounded),
-                        
                       ),
                     ),//Campo de Texto
+                    SizedBox(height: 40,),
+                    Row(
+                      children: <Widget>[
+                        CupertinoButton(
+                          padding: EdgeInsets.symmetric(horizontal: 30.0,),
+                          color: Colors.orange,
+                          borderRadius: BorderRadius.circular(12.0),
+                          child: Text('Iniciar Sesión'),
+                          onPressed: (){}
+                        ),// Botón Login
+                        SizedBox(width: 10, ),
+                        CupertinoButton(
+                          padding: EdgeInsets.symmetric(horizontal: 30.0,),
+                          color: Colors.red,
+                          borderRadius: BorderRadius.circular(12.0),
+                          child: Text('Cancelar'),
+                          onPressed: (){}
+                        ),// Botón Login
+                      ],//Hijos
+                    ),// Fila
                   ],// Hijos
                 ),//Columna
               ],// Hijos
