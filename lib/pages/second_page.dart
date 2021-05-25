@@ -68,7 +68,12 @@ class SecondPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ButtonStyle(
                               backgroundColor: MaterialStateProperty.all<Color>(Colors.orange),
-                            ),
+                              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                                RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(8.0),
+                                ),
+                              ),//Forma
+                            ),//Estilo
                             borderRadius: BorderRadius.circular(12.0),
                             child: Text('Iniciar Sesión'),
                             onPressed: (){}
@@ -80,7 +85,12 @@ class SecondPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ButtonStyle(
                               backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
-                            ),
+                              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                                RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(8.0),
+                                ),
+                              ),// Forma
+                            ),// Estilo
                             borderRadius: BorderRadius.circular(12.0),
                             child: Text('Cancelar'),
                             onPressed: (){}
