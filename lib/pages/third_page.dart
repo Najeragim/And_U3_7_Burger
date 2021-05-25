@@ -55,7 +55,7 @@ class _ThirdPageState extends State<ThirdPage> {
                   textAlign: TextAlign.center, 
                   style: TextStyle(
                     color: Colors.black,
-                    fontSize: 38,
+                    fontSize: 30,
                     fontWeight: FontWeight.bold,
                   ),
                 ),// Texto
