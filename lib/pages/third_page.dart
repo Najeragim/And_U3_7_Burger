@@ -88,7 +88,7 @@ class _ThirdPageState extends State<ThirdPage> {
               InkWell(
                 onTap: (){
                   print('UNA NUBECITA');
-                }
+                },
                 child: Container(
                   width: 110,
                   height: 110,
