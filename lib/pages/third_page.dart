@@ -86,8 +86,8 @@ class _ThirdPageState extends State<ThirdPage> {
                 height: 20.0,
               ),
               Container(
-                width: 60,
-                height: 60,
+                width: 110,
+                height: 110,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(30.0),
@@ -101,15 +101,12 @@ class _ThirdPageState extends State<ThirdPage> {
                     end: Alignment.topRight,
                   ), // Gradiente
                 ), // Box Decoration
-                child: Text(
-                  'Hola',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ), // Texto
+                child: ImageIcon(
+                  AssetImage("assets/images/api2.png"),
+                  size: 100,
+                  color: Colors.white,
+                ),
+                // Texto
               ), // Contenedor 4
             ], // Hijos
           ), // Columna
