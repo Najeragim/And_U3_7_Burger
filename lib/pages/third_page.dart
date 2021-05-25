@@ -66,17 +66,27 @@ class _ThirdPageState extends State<ThirdPage> {
               Container(
                 height: 50,
                 width: 100,
+                alignment: Alignment.center,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(30.0),
                   gradient: LinearGradient(
                     colors: [
-                      Colors.yellow,
-                      Colors.yellow[300],
-                      Colors.yellow[200],
+                      Colors.orange,
+                      Colors.orange[300],
+                      Colors.orange[200],
                     ],
                     begin: Alignment.bottomLeft,
                     end: Alignment.topRight,
                   ),// Gradiente
+                  child: Text(
+                    'Hola',
+                    textAlign: TextAlign.center, 
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 12,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),// Texto
                 ),// Box Decoration
               ),// Contenedor 3
             ],// Hijos
