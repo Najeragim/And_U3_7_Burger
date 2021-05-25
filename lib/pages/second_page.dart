@@ -17,7 +17,7 @@ class SecondPage extends StatelessWidget {
           child: SingleChildScrollView(
             child: Column(
               children: <Widget>[
-                SizedBox(height: 80), 
+                SizedBox(height: 65), 
                 Container(
                   child: Text('MC DONALD\'S',
                     style: new TextStyle(
