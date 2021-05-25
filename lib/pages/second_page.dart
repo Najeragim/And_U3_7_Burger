@@ -65,7 +65,7 @@ class SecondPage extends StatelessWidget {
                       children: <Widget>[
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            padding: EdgeInsets.all(8.0),
+                            padding: EdgeInsets.all(20.0),
                             primary: Colors.orange,
                           ),//Estilo
                           child: Text('Iniciar Sesión'),
@@ -74,7 +74,7 @@ class SecondPage extends StatelessWidget {
                         SizedBox(width: 10,),
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            padding: EdgeInsets.all(8.0),
+                            padding: EdgeInsets.all(20.0),
                             primary: Colors.red,
                           ),//Estilo
                           child: Text('Cancelar'),
