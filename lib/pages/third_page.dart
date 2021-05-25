@@ -85,29 +85,35 @@ class _ThirdPageState extends State<ThirdPage> {
               SizedBox(
                 height: 20.0,
               ),
-              Container(
-                width: 110,
-                height: 110,
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(30.0),
-                  gradient: LinearGradient(
-                    colors: [
-                      Colors.red,
-                      Colors.red[300],
-                      Colors.red[200],
-                    ],
-                    begin: Alignment.bottomLeft,
-                    end: Alignment.topRight,
-                  ), // Gradiente
-                ), // Box Decoration
-                child: ImageIcon(
-                  AssetImage("assets/images/api2.png"),
-                  size: 100,
-                  color: Colors.white,
-                ),
-                // Texto
-              ), // Contenedor 4
+              InkWell(
+                onTap: (){
+                  print('UNA NUBECITA');
+                }
+                Container(
+                  width: 110,
+                  height: 110,
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(30.0),
+                    gradient: LinearGradient(
+                      colors: [
+                        Colors.red,
+                        Colors.red[300],
+                        Colors.red[200],
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight,
+                    ), // Gradiente
+                  ), // Box Decoration
+                  child: ImageIcon(
+                    AssetImage("assets/images/api2.png"),
+                    size: 100,
+                    color: Colors.white,
+                  ),
+                  // Texto
+                ), // Contenedor 4
+              ),// InkWell
+              
             ], // Hijos
           ), // Columna
         ), // SingleChildScrollView
