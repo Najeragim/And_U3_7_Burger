@@ -66,7 +66,7 @@ class SecondPage extends StatelessWidget {
                         Padding(
                           padding: EdgeInsets.symmetric(horizontal: 10.0,),
                           child: ElevatedButton(
-                            style: ButtonStyle.styleFrom(
+                            style: ElevatedButton.styleFrom(
                               padding: EdgeInsets.all(8.0),
                               primary: Colors.orange,
                             ),//Estilo
@@ -78,7 +78,7 @@ class SecondPage extends StatelessWidget {
                         Padding(
                           padding: EdgeInsets.symmetric(horizontal: 10.0,),
                           child: ElevatedButton(
-                            style: ButtonStyle.styleFrom(
+                            style: ElevatedButton.styleFrom(
                               padding: EdgeInsets.all(8.0),
                               primary: Colors.red,
                             ),//Estilo
