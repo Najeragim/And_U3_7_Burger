@@ -86,16 +86,16 @@ class _ThirdPageState extends State<ThirdPage> {
                 height: 20.0,
               ),
               Container(
-                width: 50,
-                height: 50,
+                width: 60,
+                height: 60,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(30.0),
                   gradient: LinearGradient(
                     colors: [
-                      Colors.orange,
-                      Colors.orange[300],
-                      Colors.orange[200],
+                      Colors.red,
+                      Colors.red[300],
+                      Colors.red[200],
                     ],
                     begin: Alignment.bottomLeft,
                     end: Alignment.topRight,
