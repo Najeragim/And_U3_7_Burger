@@ -66,7 +66,9 @@ class SecondPage extends StatelessWidget {
                         Padding(
                           padding: EdgeInsets.symmetric(horizontal: 30.0,),
                           child: ElevatedButton(
-                            backgroundColor: Colors.orange,
+                            style: ButtonStyle(
+                              backgroundColor: MaterialStateProperty.all<Color>(Colors.orange),
+                            ),
                             borderRadius: BorderRadius.circular(12.0),
                             child: Text('Iniciar Sesión'),
                             onPressed: (){}
@@ -76,7 +78,9 @@ class SecondPage extends StatelessWidget {
                         Padding(
                           padding: EdgeInsets.symmetric(horizontal: 30.0,),
                           child: ElevatedButton(
-                            backgroundColor: Colors.red,
+                            style: ButtonStyle(
+                              backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
+                            ),
                             borderRadius: BorderRadius.circular(12.0),
                             child: Text('Cancelar'),
                             onPressed: (){}
