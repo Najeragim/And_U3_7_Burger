@@ -26,6 +26,25 @@ class SecondPage extends StatelessWidget {
                   ),
                 ),// Texto McDonalds
               ),// Contenedor 1
+              SizedBox(height: 40), 
+              Column(
+                children: <Widget>[
+                  Container(
+                    padding: EdgeInsets.all(2.0),
+                    child: Stack(
+                      children: <Widget>[
+                        Align(
+                          child: new Image(
+                            width: 300.0,
+                            height: 198.12,
+                            image: new AssetImage('assets/images/burger1.png'),
+                          ),// Imagen
+                        ),// Align
+                      ],//Hijos
+                    ),// Stack
+                  ),// Contenedor
+                ],// Hijos
+              ),//Columna
             ],// Hijos
           ),// Columna
         ),// Contenedor
