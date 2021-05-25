@@ -52,7 +52,7 @@ class SecondPage extends StatelessWidget {
                         suffixIcon: Icon(Icons.email_rounded),
                       ),
                     ),//Campo de Texto
-                    SizedBox(height: 40),
+                    SizedBox(height: 16),
                     TextField(
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
