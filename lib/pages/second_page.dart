@@ -47,14 +47,6 @@ class SecondPage extends StatelessWidget {
                     SizedBox(height: 40),
                     TextField(
                       decoration: InputDecoration(
-                        hintText: 'Correo',
-                        icon: Icon(Icons.email_rounded),
-                        
-                      ),
-                    ),//Campo de Texto
-                    SizedBox(height: 40),
-                    TextField(
-                      decoration: InputDecoration(
                         border: OutlineInputBorder(),
                         hintText: 'Correo',
                         suffixIcon: Icon(Icons.email_rounded),
