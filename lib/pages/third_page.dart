@@ -44,6 +44,8 @@ class _ThirdPageState extends State<ThirdPage> {
                     Colors.yellow[300],
                     Colors.yellow[200],
                   ],
+                  begin: Alignment.bottomLeft,
+                  end: Alignment.topRight,
                 ),
               ),
             ),// Contenedor 2
