@@ -12,7 +12,21 @@ class SecondPage extends StatelessWidget {
         child: Container(
           width: double.infinity,
           height: double.infinity,
-          color: Colors.green,
+          //color: Colors.green,
+          padding: EdgeInsets.symmetric(horizontal: 30.0),
+          child: Column(
+            children: <Widget>[
+              SizedBox(height: 100), 
+              Container(
+                child: Text('MC DONALD\'S'),
+                style: new TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 45.0,
+                  color: Colors.orange,
+                ),
+              ),// Contenedor 1
+            ],// Hijos
+          ),// Columna
         ),// Contenedor
       ),// SafeArea
     ); // Scaffold
