@@ -42,7 +42,7 @@ class _ThirdPageState extends State<ThirdPage> {
                   colors: [
                     Colors.yellow,
                     Colors.yellow[300],
-                    Colors.yellow[100],
+                    Colors.yellow[200],
                   ],
                 ),
               ),
