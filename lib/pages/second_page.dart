@@ -60,7 +60,7 @@ class SecondPage extends StatelessWidget {
                         suffixIcon: Icon(Icons.vpn_key_rounded),
                       ),
                     ),//Campo de Texto
-                    SizedBox(height: 40,),
+                    SizedBox(height: 20,),
                     Row(
                       children: <Widget>[
                         ElevatedButton(
